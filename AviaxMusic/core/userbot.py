@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("AviaxOfficial")
-                await self.one.join_chat("AviaxSupport")
+                await self.one.join_chat("Team_Dns_Network")
+                await self.one.join_chat("Team_Dns_Network")
             except:
                 pass
             assistants.append(1)
@@ -168,4 +168,5 @@ class Userbot(Client):
                 await self.five.stop()
         except:
             pass
+
 
